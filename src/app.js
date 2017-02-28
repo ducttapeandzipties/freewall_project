@@ -16,3 +16,6 @@ angular.module("freewallApp", []);
 //
 // on form submission update wall, index, and save form data to database
 //
+=======
+angular.module("freewallApp", []);
+>>>>>>> add4e9ce3b40651aed209b2249483227c589f50b
