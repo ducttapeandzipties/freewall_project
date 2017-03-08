@@ -9,14 +9,20 @@ angular.module("freewallApp", []);
 
 // TODO
 //
+// create main view and route to get to view
+// move code in this file to main view
+//
 // code express app into code
 // setup node server
 //
-// break these down into smaller steps
 //
-// read database on page load and display most recent content to tall
+//
+// read database on page load and display most recent content to wall
 // read index from database and display
 //
-// on form submission update wall, index, and save form data to database
+// on form submission
+//  update wall
+// update index
+// save form data to database
 //
 //
