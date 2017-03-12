@@ -9,7 +9,7 @@ const router     = require('./routes');   //includes express routes
 const mongoose = require('mongoose');  //includes mongoose
 
 const app = express();  //creates an express app called "app"
-
+app.use(router);
 
 // creates a server on port 8080
 app.listen(config.port, function() {

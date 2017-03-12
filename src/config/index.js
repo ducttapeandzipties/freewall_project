@@ -1,4 +1,4 @@
-// config/index.js
+// src/config/index.js
 
 //express and mongo config
 
