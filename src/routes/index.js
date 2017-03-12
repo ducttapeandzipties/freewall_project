@@ -10,5 +10,5 @@ router.get('/files', function(req, res, next) {  //creates a route "files"
 
 router.get('/', function(req, res, next) {  //creates a root route
   console.log("rooted!!!");
-  res.send("root stuff");                        // do work
+  res.send("home route");
 });
