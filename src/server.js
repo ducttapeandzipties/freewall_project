@@ -10,6 +10,8 @@ const mongoose = require('mongoose');  //includes mongoose
 
 const app = express();  //creates an express app called "app"
 app.use(router);
+app.set('view engine', 'pug');
+app.set('views', __dirname + '/views')
 
 // creates a server on port 8080
 app.listen(config.port, function() {
