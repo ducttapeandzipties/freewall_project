@@ -11,5 +11,5 @@ router.get('/files', function(req, res, next) {  //creates a route "files"
 
 // router.get('/', function(req, res, next) {  //creates a root route
 //   console.log("rooted!!!");
-//   res.render('index');    // send something to the DOM
+//   res.render('index');    // send index pug template to DOM
 // });   // I think I need to reference an angular app instead of this index view
