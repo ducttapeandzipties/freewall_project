@@ -1,8 +1,6 @@
 // src/app.js
 
-//creates an angular app named "freewallApp"
-
-angular.module("freewallApp", []);
+angular.module("freewallApp", []); //creates an angular app named "freewallApp"
 
 
 
